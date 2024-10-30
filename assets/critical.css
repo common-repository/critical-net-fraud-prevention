@@ -1,0 +1,33 @@
+.critical_net_risk_score > span {
+	padding: 7px 10px;
+	border-radius: 5px;
+}
+.critical_net_risk_score > span.approved, .critical_net_risk_score > span.approved a {
+	color: #55AF54;
+	background-color: #DBF8E2;
+}
+.critical_net_risk_score > span.rejected, .critical_net_risk_score > span.rejected a {
+	color: #DC041F;
+	background-color: #FFE6DD;
+}
+.critical_net_risk_score > span.review, .critical_net_risk_score > span.review a {
+	color: #E6A832;
+	background-color: #FFF6CF;
+}
+.critical_net_risk_score > span > a > span.text {
+	margin-left: 10px;
+}
+.critical_net_risk_score > span > a > span.dashicons {
+	line-height: inherit !important;
+}
+.critical_net_risk_score > span > a:active, .critical_net_risk_score > span > a:focus {
+	outline: none !important;
+	border: none !important;
+	text-decoration: none !important;
+	box-shadow: none !important;
+	-webkit-tap-highlight-color: transparent !important;
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	user-select: none;
+}
